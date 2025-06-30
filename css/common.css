@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #39145e; /* Keep the solid background color */
+    min-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #39145e;
+    padding: 1em;
+    color: white;
+    position: relative;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .logo-icon {
+    background-color: #6943b4;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #81749a;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.user-info {
+    color: white;
+    margin-right: 0.5em;
+    display: inline;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color:#6943b4;
+}
+
+.btn:hover {
+    background-color:#7f71ad;
+}
+
+.btn-primary {
+    background-color: #6943b4;
+}
+
+.btn-primary:hover {
+    background-color: #7f71ad;
+}
+
+.btn-secondary {
+    background-color: #6943b4;
+}
+
+.btn-secondary:hover {
+    background-color: #7f71ad;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(248, 247, 247, 0.9);
+    color: #6943b4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

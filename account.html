@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - NotesNExam</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/account.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">N</span> NotesNExam
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Study Notes</a></li>
+            <li><a href="#">Practice Exams</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <span class="user-info"></span>
+            <a href="login.html" class="btn">Login</a>
+            <a href="register.html" class="btn btn-primary">Sign Up</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="auth-form">
+            <h2>Account Settings</h2>
+            <div id="account-message"></div>
+            <p id="username-display"></p> <!-- Display username here -->
+            <h3>Change Password</h3>
+            <form id="change-password-form" onsubmit="handleChangePassword(event)">
+                <label for="current-password">Current Password</label>
+                <input type="password" id="current-password" name="current_password" required>
+                <label for="new-password">New Password</label>
+                <input type="password" id="new-password" name="new_password" required>
+                <button type="submit" class="btn btn-primary">Change Password</button>
+            </form>
+            <p><a href="index.html">Back to Home</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 NotesNExam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
