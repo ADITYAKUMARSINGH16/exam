@@ -1,91 +1,70 @@
-NotesNExam Web Application
+<h1>NotesNExam Web Application</h1>
 
-Overview
+<h2>Overview</h2>
 
-NotesNExam is a web-based platform designed to help students access study notes, practice exams, and expert guidance. This project provides a static prototype hosted locally via XAMPP, with plans for future dynamic enhancements.
+<p>NotesNExam is a web-based platform designed to help students access study notes, practice exams, and expert guidance. This project provides a static prototype hosted locally via XAMPP, with plans for future dynamic enhancements.</p>
 
-Features
+<h2>Features</h2>
 
+<p>Hero Section: Full-page introduction with a background image (1.png) and call-to-action buttons.</p>
+<p>Popular Subjects: Grid of subjects (Computer Science, Mathematics, Science, Commerce) with icons (💻, ➕, 🔬, 💰).</p>
+<p>Recent Study Notes: Cards with downloadable notes (e.g., Data Structures, Calculus) with icons (🖥️, 🧮, ⚗️).</p>
+<p>Images: Includes 1.png (hero background).</p>
 
+<h2>Installation</h2>
 
 
 
-Hero Section: Full-page introduction with a background image (1.png) and call-to-action buttons.
 
 
+<p>Install XAMPP and start Apache and MySQL.</p>
 
-Date-Time Display: Shows the current date and time (e.g., "09:58 PM IST on Monday, June 30, 2025") with optional dynamic updates.
 
 
+<p>Place the project folder in C:\xampp\htdocs\exam\.</p>
 
-Popular Subjects: Grid of subjects (Computer Science, Mathematics, Science, Commerce) with icons (💻, ➕, 🔬, 💰).
 
 
+<p>Ensure images (1.png) are in C:\xampp\htdocs\exam\images\.</p>
 
-Testimonials: User quotes to build trust.
 
 
+<h3>Access via http://localhost/exam/index.html.</h3>
 
-Recent Study Notes: Cards with downloadable notes (e.g., Data Structures, Calculus) with icons (🖥️, 🧮, ⚗️).
+<h2>Technologies</h2>
 
 
 
-Images: Includes 1.png (hero background) and 2.png (features header).
 
-Installation
 
+<p>HTML5: Structure of the web pages.</p>
 
 
 
+<p>CSS3: Styling and responsiveness.</p>
 
-Install XAMPP and start Apache and MySQL.
 
 
+<p>JavaScript.</p>
 
-Place the project folder in C:\xampp\htdocs\exam\.
+<h2>Future Work</h2>
 
 
 
-Ensure images (1.png, 2.png) are in C:\xampp\htdocs\exam\images\.
 
 
+<p>Add a backend for dynamic content.</p>
 
-Access via http://localhost/exam/index.html.
 
-Technologies
 
 
 
 
 
-HTML5: Structure of the web pages.
+<p>Expand subject offerings.</p>
 
+<h2>Contact</h2>
 
+<p>Singhaditya7864@gmail.com</p>
 
-CSS3: Styling and responsiveness.
 
-
-
-JavaScript: Optional dynamic date-time updates (commented out).
-
-Future Work
-
-
-
-
-
-Add a backend for dynamic content.
-
-
-
-Implement user authentication.
-
-
-
-Expand subject offerings.
-
-Contact
-
-Singhaditya7864@gmail.com
-
-Last Updated: June 30, 2025, 09:58 PM IST
