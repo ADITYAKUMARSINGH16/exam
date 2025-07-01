@@ -86,6 +86,6 @@ Expand subject offerings.
 
 Contact
 
-For issues, contact the xAI team at [placeholder email].
+Singhaditya7864@gmail.com
 
 Last Updated: June 30, 2025, 09:58 PM IST
